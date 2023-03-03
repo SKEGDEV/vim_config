@@ -9,6 +9,7 @@ set showmatch
 set sw=2
 set relativenumber
 inoremap ( ()<Esc>i
+"this line is add to use the COC in windows terminal
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 inoremap (<CR> (<CR>)<Esc>O
