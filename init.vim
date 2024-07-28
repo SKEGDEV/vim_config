@@ -9,6 +9,8 @@ set showmatch
 set sw=2
 set relativenumber
 inoremap ( ()<Esc>i
+"to install plug on neovim
+"curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 "this line is add to use the COC in windows terminal
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
